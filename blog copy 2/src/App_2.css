@@ -1,0 +1,69 @@
+/* styling for creating form */
+
+
+
+*{
+
+    text-decoration: none;
+  }
+  body{
+    margin: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .infoContainer h1{
+  
+  text-align:  center;
+  
+  }
+  
+  
+  
+  .memento_card{
+  
+   
+    background-color: black;
+    color: aliceblue;
+    font-size: 10px;
+    width: 20vw;
+    height: 20vh;
+  }
+  
+  .memento_details{
+    text-align: center;
+    padding-top: 5px;
+  }
+  .center h1{
+  
+    text-align: center;
+  }
+  .plus{
+    width: 10vh;
+    margin: 30px;
+    height: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    background-color: white;
+  }
+  
+  .card{
+  
+  
+    background-color: brown;
+  }
+  
+  .memento_details{
+  
+  
+    position: absolute;
+    left: 40vw;
+  justify-content: center;
+  
+  }
